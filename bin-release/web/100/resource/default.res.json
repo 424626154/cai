@@ -1,0 +1,50 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egretIcon",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "button_click",
+			"type": "sound",
+			"url": "assets/button_click.mp3"
+		},
+		{
+			"name": "find_shen_su",
+			"type": "sound",
+			"url": "assets/find_shen_su.mp3"
+		},
+		{
+			"name": "find_wrong",
+			"type": "sound",
+			"url": "assets/find_wrong.mp3"
+		},
+		{
+			"name": "dialog_open",
+			"type": "sound",
+			"url": "assets/dialog_open.mp3"
+		},
+		{
+			"name": "arrow",
+			"type": "image",
+			"url": "assets/arrow.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "bgImage,egretIcon,button_click,find_shen_su,find_wrong,dialog_open,arrow"
+		}
+	]
+}
